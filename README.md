@@ -1,5 +1,6 @@
 # Centaur: Robust Multimodal Fusion for Human Activity Recognition
-![This is an image](https://img.shields.io/badge/arXiv-2303.04636-darkred) ![This is an image](https://img.shields.io/badge/license-MIT-green)
+[![This is an image](https://img.shields.io/badge/arXiv-2303.04636-darkred)](https://arxiv.org/abs/2303.04636)
+[![This is an image](https://img.shields.io/badge/license-MIT-green)](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md)
 
 This repository contains the implementation of the paper entitled "Centaur: Robust Multimodal Fusion for Human Activity Recognition".
 
