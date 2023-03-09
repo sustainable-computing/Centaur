@@ -15,10 +15,10 @@ The original (not preprocessed) datasets can be found at the following links:
 ## Dependencies
 Package       | Version
 ------------- | -------------
-Python3       | Content Cell
-PyTorch       | Content Cell
-TensorFlow    | Content Cell
-scikit-learn  | Content Cell
+Python3       | xxx
+PyTorch       | xxx
+TensorFlow    | xxx
+scikit-learn  | xxx
 
 ## Citation
 Sanju Xaviar, Xin Yang and Omid Ardakanian. 2023. [Robust Multimodal Fusion for Human Activity Recognition](https://arxiv.org/abs/2303.04636), preprint.
