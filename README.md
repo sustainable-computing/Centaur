@@ -11,5 +11,10 @@ The original (not preprocessed) datasets can be found at the following links:
 
 
 ## Dependencies
+Package       | Version
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 ## Citation
