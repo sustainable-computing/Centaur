@@ -19,3 +19,16 @@ TensorFlow    | Content Cell
 scikit-learn  | Content Cell
 
 ## Citation
+Sanju Xaviar, Xin Yang and Omid Ardakanian. 2023. [Robust Multimodal Fusion for Human Activity Recognition](https://arxiv.org/abs/2303.04636), preprint.
+```
+@misc{https://doi.org/10.48550/arxiv.2303.04636,
+  doi = {10.48550/ARXIV.2303.04636},
+  url = {https://arxiv.org/abs/2303.04636}, 
+  author = {Xaviar, Sanju and Yang, Xin and Ardakanian, Omid}, 
+  keywords = {Machine Learning (cs.LG), Signal Processing (eess.SP), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS:  Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+  title = {Robust Multimodal Fusion for Human Activity Recognition},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
