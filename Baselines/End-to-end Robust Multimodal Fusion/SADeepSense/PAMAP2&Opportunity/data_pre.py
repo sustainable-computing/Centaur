@@ -97,7 +97,7 @@ def prepare_data(args):
     scaler = MinMaxScaler()
     # scaler = StandardScaler()
     for uid in np.arange(1,6):
-        path = '/home/xaviar/Cosmo/sample-code-UTD/supervised-baselines/OpportunityUCIDataset/dataset/S1-ADL' + str(uid) + '.dat'
+        path = '.../OpportunityUCIDataset/dataset/S1-ADL' + str(uid) + '.dat'
         df = pd.read_table(path, sep=' ', header=None)
 #         print(df[243].unique())
         df[243][df[243] == 4] = 3
