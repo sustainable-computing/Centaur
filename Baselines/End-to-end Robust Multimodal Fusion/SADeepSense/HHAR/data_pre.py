@@ -188,7 +188,7 @@ def process(item):
 class myTrainDataset(Dataset):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.f = glob.glob("/home/xaviar/diffusion/SADeepSense_HHAR/outputDir/*/train/*.csv")
+        self.f = glob.glob(".../outputDir/*/train/*.csv")
         self.inds = np.random.permutation(len(self.f))
     
     def __getitem__(self, i):
@@ -200,7 +200,7 @@ class myTrainDataset(Dataset):
 class myTestDataset(Dataset):
 	def __init__(self, **kwargs):
 		super().__init__(**kwargs)
-		self.f = glob.glob("/home/xaviar/diffusion/SADeepSense_HHAR/outputDir/*/eval/*.csv")
+		self.f = glob.glob("..../outputDir/*/eval/*.csv")
 		self.inds = np.random.permutation(len(self.f))
 
 	def __getitem__(self, i):
