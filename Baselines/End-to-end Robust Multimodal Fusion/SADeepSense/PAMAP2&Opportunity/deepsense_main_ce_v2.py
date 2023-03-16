@@ -1,4 +1,3 @@
-# version 2 of this code has a better way to train, testing can be done by loading the path after training is complete
 from __future__ import print_function
 
 import os
