@@ -46,7 +46,7 @@ def prepare_data(args):
     # scaler = StandardScaler()
 
     for uid in np.arange(1,10):
-        path = '/home/xaviar/Cosmo/sample-code-UTD/supervised-baselines/PAMAP2_Dataset/Protocol/subject10' + str(uid) + '.dat'
+        path = '.../PAMAP2_Dataset/Protocol/subject10' + str(uid) + '.dat'
         df = pd.read_table(path, sep=' ', header=None)
         act_imu_filter = df.iloc[:, imu_locs] 
 
