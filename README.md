@@ -8,11 +8,11 @@ This repository contains the implementation of the paper entitled "Centaur: Robu
 ## Directories
   * [Centaur](https://github.com/sustainable-computing/Centaur/tree/main/Centaur): Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
        * [ConvAttn](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/ConvAttn): Self-attention CNN module
-   * [DAE](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/DAE): Data cleaning module
+       * [DAE](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/DAE): Data cleaning module
   * [Baselines](https://github.com/sustainable-computing/Centaur/tree/main/Baselines): Source code of Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
-   * [Cleaning module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Cleaning%20module): Baselines DAAE and VRAE for the cleaning module
-   * [End-to-end Robust Multimodal Fusion](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/End-to-end%20Robust%20Multimodal%20Fusion): Baselines SADeepSense and UniTS
-   * [Human activity recognition module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Human%20activity%20recognition%20module): Baselines DeepCNN and DeepConvLSTM
+       * [Cleaning module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Cleaning%20module): Baselines DAAE and VRAE for the cleaning module
+       * [End-to-end Robust Multimodal Fusion](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/End-to-end%20Robust%20Multimodal%20Fusion): Baselines SADeepSense and UniTS
+       * [Human activity recognition module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Human%20activity%20recognition%20module): Baselines DeepCNN and DeepConvLSTM
 
 ## Instructions
  * To train Centaur's data cleaning module use [DE-train-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-train-PAMAP2.ipynb) for PAMAP2 dataset. Similarly Centaur can be trained on Opportunity and HHAR dataset by choosing the appropriate files from this directory.
