@@ -5,7 +5,12 @@
 This repository contains the implementation of the paper entitled "Centaur: Robust Multimodal Fusion for Human Activity Recognition".
 
 ## Directories
-PAMAP2 https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring
+  * Centaur: Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
+  * Baselines: Source code for the Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
+
+## Instructions
+
+
 
 
 ## Datasets
