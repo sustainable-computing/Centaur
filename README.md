@@ -4,9 +4,10 @@
 
 This repository contains the implementation of the paper entitled "Centaur: Robust Multimodal Fusion for Human Activity Recognition".
 
+
 ## Directories
   * [Centaur](https://github.com/sustainable-computing/Centaur/tree/main/Centaur): Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
-   * [ConvAttn](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/ConvAttn): Self-attention CNN module
+       * [ConvAttn](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/ConvAttn): Self-attention CNN module
    * [DAE](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/DAE): Data cleaning module
   * [Baselines](https://github.com/sustainable-computing/Centaur/tree/main/Baselines): Source code of Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
    * [Cleaning module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Cleaning%20module): Baselines DAAE and VRAE for the cleaning module
