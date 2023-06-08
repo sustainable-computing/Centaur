@@ -6,7 +6,7 @@ This repository contains the implementation of the paper entitled "Centaur: Robu
 
 ## Directories
   * Centaur: Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
-  * Baselines: Source code for the Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
+  * Baselines: Source code of Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
 
 ## Instructions
 
@@ -44,3 +44,8 @@ Sanju Xaviar, Xin Yang and Omid Ardakanian. 2023. [Robust Multimodal Fusion for 
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
+
+## License
+Refer to the file [LICENCE]([https://arxiv.org/abs/2303.04636](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md))
+
+
