@@ -5,14 +5,14 @@
 This repository contains the implementation of the paper entitled "Centaur: Robust Multimodal Fusion for Human Activity Recognition".
 
 ## Directories
-  * Centaur: Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
-  * Baselines: Source code of Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
+  * [Centaur](https://github.com/sustainable-computing/Centaur/tree/main/Centaur): Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
+  * [Baselines](https://github.com/sustainable-computing/Centaur/tree/main/Baselines): Source code of Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
 
 ## Instructions
-
-
-
-
+ * To train Centaur's data cleaning module use [DE-train-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-train-PAMAP2.ipynb) for PAMAP2 dataset. Similarly Centaur can be trained on Opportunity and HHAR dataset by choosing the appropriate files from this directory.
+ * To train Centaur's self-attention CNN module for HAR use [Eval-PAMAP2-ConvAttn.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/ConvAttn/Eval-PAMAP2-ConvAttn.ipynb)
+ * To analyze Centaur's End-to-end robust multimodal fusion performance on PAMAP2 dataset use [DE-test-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-test-PAMAP2.ipynb). You would need to insert the  paths generated after training the data cleaning and attention module for evaluation of the model.
+ * 
 ## Datasets
 Scripts to the preprocessed data can be found in the appropriate directories.
 The original (not preprocessed) datasets can be found at the following links:
@@ -30,6 +30,12 @@ PyTorch       | 1.10.2
 TensorFlow    | 2.8.0
 scikit-learn  | 1.1.2
 
+## Related links
+
+
+## License
+Refer to the file [LICENCE](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md)
+
 ## Citation
 Sanju Xaviar, Xin Yang and Omid Ardakanian. 2023. [Robust Multimodal Fusion for Human Activity Recognition](https://arxiv.org/abs/2303.04636), preprint.
 ```
@@ -44,8 +50,5 @@ Sanju Xaviar, Xin Yang and Omid Ardakanian. 2023. [Robust Multimodal Fusion for 
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
-
-## License
-Refer to the file [LICENCE](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md)
 
 
