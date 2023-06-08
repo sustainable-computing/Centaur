@@ -4,7 +4,12 @@
 
 This repository contains the implementation of the paper entitled "Centaur: Robust Multimodal Fusion for Human Activity Recognition".
 
+## Directories
+PAMAP2 https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring
+
+
 ## Datasets
+Scripts to the preprocessed data can be found in the appropriate directories.
 The original (not preprocessed) datasets can be found at the following links:
 
  * PAMAP2 https://archive.ics.uci.edu/ml/datasets/pamap2+physical+activity+monitoring
