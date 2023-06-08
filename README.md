@@ -9,13 +9,13 @@ This repository contains the implementation of the paper entitled "Centaur: Robu
   * [Centaur](https://github.com/sustainable-computing/Centaur/tree/main/Centaur): Source code of Centaur's data cleaning module and self-attention CNN for human activity recognition
        * [ConvAttn](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/ConvAttn): Self-attention CNN module
        * [DAE](https://github.com/sustainable-computing/Centaur/tree/main/Centaur/DAE): Data cleaning module
-  * [Baselines](https://github.com/sustainable-computing/Centaur/tree/main/Baselines): Source code of Data cleaning baselines, Human activity recognition baselines and End-to-end robust multimodal fusion baselines
+  * [Baselines](https://github.com/sustainable-computing/Centaur/tree/main/Baselines): Source code for Baselines of Data cleaning, Human activity recognition and End-to-end robust multimodal fusion
        * [Cleaning module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Cleaning%20module): DAAE and VRAE for the cleaning module
        * [End-to-end Robust Multimodal Fusion](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/End-to-end%20Robust%20Multimodal%20Fusion): SADeepSense and UniTS
        * [Human activity recognition module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Human%20activity%20recognition%20module):DeepCNN and DeepConvLSTM
 
 ## Instructions
- * To train Centaur's data cleaning module use [DE-train-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-train-PAMAP2.ipynb) for PAMAP2 dataset. Similarly Centaur can be trained on Opportunity and HHAR dataset by choosing the appropriate files from this directory.
+ * To train Centaur's data cleaning module use [DE-train-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-train-PAMAP2.ipynb) for PAMAP2 dataset. Similarly Centaur can be trained on Opportunity and HHAR dataset by choosing the appropriate files from Centaur directory.
  * To train Centaur's self-attention CNN module for HAR use [Eval-PAMAP2-ConvAttn.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/ConvAttn/Eval-PAMAP2-ConvAttn.ipynb)
  * To analyze Centaur's End-to-end robust multimodal fusion performance on PAMAP2 dataset use [DE-test-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-test-PAMAP2.ipynb). You would need to insert the  paths generated after training the data cleaning and attention module for evaluation of the model.
  
@@ -35,9 +35,6 @@ Python3       | 3.8.13
 PyTorch       | 1.10.2
 TensorFlow    | 2.8.0
 scikit-learn  | 1.1.2
-
-## Related links
-
 
 ## License
 Refer to the file [LICENCE](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md)
