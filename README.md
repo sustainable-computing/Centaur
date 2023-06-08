@@ -46,6 +46,6 @@ Sanju Xaviar, Xin Yang and Omid Ardakanian. 2023. [Robust Multimodal Fusion for 
 ```
 
 ## License
-Refer to the file [LICENCE]([https://arxiv.org/abs/2303.04636](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md))
+Refer to the file [LICENCE](https://github.com/Sanju-Xaviar/Centaur/blob/main/LICENSE.md)
 
 
