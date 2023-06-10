@@ -13,6 +13,7 @@ This repository contains the implementation of the paper entitled "Centaur: Robu
        * [Cleaning module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Cleaning%20module): DAAE and VRAE for the cleaning module
        * [End-to-end Robust Multimodal Fusion](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/End-to-end%20Robust%20Multimodal%20Fusion): SADeepSense and UniTS
        * [Human activity recognition module](https://github.com/sustainable-computing/Centaur/tree/main/Baselines/Human%20activity%20recognition%20module):DeepCNN and DeepConvLSTM
+  * [Results](https://github.com/sustainable-computing/Centaur/tree/main/Results): Plotting of figures for the End-to-end Robust Multimodal fusion
 
 ## Instructions
  * To train Centaur's data cleaning module use [DE-train-PAMAP2.ipynb](https://github.com/sustainable-computing/Centaur/blob/main/Centaur/DAE/DE-train-PAMAP2.ipynb) for PAMAP2 dataset. Similarly Centaur can be trained on Opportunity and HHAR dataset by choosing the appropriate files from Centaur directory.
